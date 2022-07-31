@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="myPage">
+            <h1>Google books API</h1>
+            <div>
+                <input
+                    type="text"
+                    id="textInput"
+                    placeholder="Enter a book name"
+                />
+                <button id="submitButton">Submit</button>
+            </div>
+            <p>Books will appear here on search.</p>
+            <div id="booksGrid" class="booksGrid"></div>
+        </div>
+    </body>
+    <script type="module" src="index.js"></script>
+    <script type="module" src="./Modules/createCard.js"></script>
+    <script type="module" src="./Modules/getBookList.js"></script>
+</html>
