@@ -26,6 +26,7 @@
   border: 2px solid black;
   margin: 3px;
   padding: 1px;
+  background-color: lightgoldenrodyellow;
 }
 .card > p {
   font-size: 9px;
@@ -34,4 +35,5 @@
 body {
   display: flex;
   justify-content: center;
+  background-color: lightblue;
 }
